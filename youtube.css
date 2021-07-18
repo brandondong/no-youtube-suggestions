@@ -1,3 +1,25 @@
+/* Hide post video title card. */
 .ytp-ce-element {
-  display: none !important;
+  visibility: hidden !important;
+}
+
+.ytp-suggestion-set {
+  visibility: hidden !important;
+}
+
+/* Hide right sidebar video suggestions. */
+ytd-compact-video-renderer {
+  visibility: hidden !important;
+}
+
+ytd-compact-playlist-renderer {
+  visibility: hidden !important;
+}
+
+ytd-compact-radio-renderer {
+  visibility: hidden !important;
+}
+
+ytd-compact-movie-renderer {
+  visibility: hidden !important;
 }
