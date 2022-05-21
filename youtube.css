@@ -7,6 +7,10 @@
   visibility: hidden !important;
 }
 
+.ytp-pause-overlay {
+  visibility: hidden !important;
+}
+
 /* Hide right sidebar video suggestions. */
 ytd-compact-video-renderer {
   visibility: hidden !important;
